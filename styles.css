@@ -1,14 +1,12 @@
 body {
-  font-family: "Lato", sans-serif;
+  
   font-family: "Open sans", sans-serif;
 
-  margin-left: 240px;
-  margin-right: 240px;
+  
 }
 
 .header {
   width: 1920px;
-  height: 850px;
 }
 /* NAV SECTN */
 nav {
@@ -18,7 +16,6 @@ nav {
   padding-left: 240px;
   padding-right: 240px;
   background-color: rgba(229, 84, 115, 0.1);
-  
 }
 
 .nav-title {
@@ -81,4 +78,14 @@ nav a {
   margin-top: 50px;
   margin-right: 240px;
   margin-bottom: 0px;
+}
+
+.featured-section{
+  margin: 176px 450px 0px;
+  height: 48px;
+  text-align: center;
+}
+
+.featured-title{
+  font-size: 40px;
 }
