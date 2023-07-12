@@ -1,7 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   font-family: "Open sans", sans-serif;
-  background-color: rgba(229, 84, 115, 0.1);
+
   margin-left: 240px;
   margin-right: 240px;
 }
@@ -15,8 +15,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 240px;
-  margin-right: 240px;
+  padding-left: 240px;
+  padding-right: 240px;
+  background-color: rgba(229, 84, 115, 0.1);
+  
 }
 
 .nav-title {
@@ -47,22 +49,36 @@ nav a {
   text-decoration: none;
 }
 
+.banner {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  width: 1920px;
+}
+
 .banner-content {
   margin-left: 240px;
+  display: block;
 }
 .banner-greetings {
   font-size: 80px;
   font-weight: 800;
   margin-right: 97px;
+  margin-bottom: 32px;
+  margin-top: 197pxå;
 }
 
 .banner-p {
   width: 634px;
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  padding-bottom: 30px ;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.banner-pic {
+  margin-top: 50px;
+  margin-right: 240px;
+  margin-bottom: 0px;
 }
