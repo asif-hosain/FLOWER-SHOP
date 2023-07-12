@@ -1,63 +1,50 @@
-/* shared styles */
 body {
   font-family: "Lato", sans-serif;
+
+  font-family:"Open sans", sans-serif;
+  background-color: rgba(229, 84, 115, 0.1);
+  margin-left: 240px;
+  margin-right: 240px;
 }
 
-.btn-primary {
-  border-radius: 5px;
-  background-color: orange;
-  border: none;
-  font-size: 20px;
-  font-weight: 400;
-  color: white;
-  padding: 15px 30px;
+.header {
+  width: 1920px;
+  height: 850px;
 }
-/* nav related styles */
-
-.text-primary {
-  color: orange;
-}
+/* NAV SECTN */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 200px;
 }
 
 .nav-title {
-  color: #272727;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 800;
+  color: #e55473;
 }
 
-nav > ul,button {
+.btn-primary {
+  -webkit-text-fill-color: white;
+  background-color: #e55473;
+  font-size: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 43px;
+}
+nav ul {
   display: flex;
   align-items: center;
 }
-
-nav li , button{
-  list-style: none;
+nav li {
+  font-size: 30px;
   margin-right: 50px;
-}
-
-nav a {
-  text-decoration: none;
+  list-style: none;
   color: #474747;
 }
-
-
-/* header related style */
-.header{
-    background-color: rgba(229, 84, 115, 0.1);
+nav a {
+  text-decoration: none;
 }
 
-.banner{
-  padding: 30 30 30 150 ;
-  display: flex;
-  align-items: center;
-}
-
-.banner .banner-pic{
-  width: 635px;
-  height: 800px;
+.banner {
 }
