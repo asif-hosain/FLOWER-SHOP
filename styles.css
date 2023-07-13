@@ -89,6 +89,7 @@ nav a {
 .featured-p {
   padding: 0px 150px;
   height: 60px;
+  color: rgba(39, 39, 39, 0.60);
 }
 
 .feature-container {
@@ -103,6 +104,7 @@ nav a {
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
+  margin-bottom: 32px;
   
 }
 .feature-2 {
@@ -111,12 +113,14 @@ nav a {
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
   margin-left: 24;
+  margin-bottom: 32px;
 }
 .feature-3 {
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
+  margin-bottom: 32px;
 }
 .feature-1 img {
   padding: 110px 77px 0px;
@@ -126,4 +130,24 @@ nav a {
 }
 .feature-3 img {
   padding: 67px 75px 0px;
+}
+
+.featured-caption{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.featured-caption ul {
+  display: flex;
+  
+}
+.featured-caption li {
+  font-size: 24px;
+  list-style: none;
+  text-decoration: underline
+  
+  
+}
+.caption-a{
+  margin: 0px 308px;
 }
