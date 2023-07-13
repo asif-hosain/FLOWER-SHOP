@@ -44,6 +44,7 @@ nav li {
 nav a {
   text-decoration: none;
 }
+/* Banner */
 
 .banner {
   background-color: rgba(229, 84, 115, 0.1);
@@ -79,6 +80,7 @@ nav a {
   margin-bottom: 0px;
 }
 
+/* Feature */
 .featured-section {
   margin: 176px 450px 0px;
   text-align: center;
@@ -153,10 +155,10 @@ margin: 0px 200px;
   margin: 0px 313px;
 }
 .features{
-  padding:86px 175px 87px 175px;
+  /* padding:86px 175px 87px 175px; */
   background-color: #ECECEC;
-  margin-left: 240px;
-  margin-right: 240px;
+  /* margin-left: 240px;
+  margin-right: 240px; */
 }
 .features-details{
   display: flex;
@@ -165,4 +167,42 @@ margin: 0px 200px;
 }
 .feature-container p{
   padding-left: 170px;
+}
+/* sales */
+.sales{ 
+  background: rgba(229, 84, 115, 0.05); border-radius: 8px"
+}
+
+.sales{
+  display: flex;
+  margin-top: 128px;
+}
+.sales h3{
+  font-size: 40px;
+  padding-top: 230px;
+  padding-left: 423px;
+  
+}
+.sales h3>span{
+  color:#E55473
+}
+.sales p{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  padding-top: 24px ;
+  padding-left:395px;
+  padding-right: 178px;
+  text-align: center;
+  
+}
+
+.sales button{
+  margin-left: 603px;
+  margin-top: 32px;
+  margin-bottom: 160px;
+}
+.sales-img{
+  padding-top: 100px;
+  padding-right: 420px;
+  
 }
