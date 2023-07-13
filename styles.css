@@ -79,11 +79,50 @@ nav a {
 
 .featured-section {
   margin: 176px 450px 0px;
-  height: 48px;
   text-align: center;
 }
 
 .featured-title {
   font-size: 40px;
-  margin-bottom: 24px;
+}
+
+.featured-p {
+  padding: 0px 150px;
+  height: 60px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.feature-1 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  
+}
+.feature-2 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  margin-left: 24;
+}
+.feature-3 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.feature-1 img {
+  padding: 110px 77px 0px;
+}
+.feature-2 img {
+  padding:  117px 47px 51px;
+}
+.feature-3 img {
+  padding: 67px 75px 0px;
 }
