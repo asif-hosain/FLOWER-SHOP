@@ -1,287 +1,279 @@
 body {
-  
-
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.global_margin{
-
-  justify-content: center;
-
-  
-  
+.global_button {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 20px 40px;
+  background-color: #e55473;
+  border: none;
+  border-radius: 8px;
 }
+
+/* nav */
+
+
 
 /* Banner */
 
-.banner{
+.banner {
+  background: rgba(229, 84, 115, 0.1);
   display: flex;
-  background-color: rgba(229, 84, 115, 0.10);
-  /* padding: 0px 240px; */
-  margin-bottom: 178px;
+  justify-content: center;
 }
 
-.banner_content h3{
+.banner h3 {
+  padding-top: 150px;
   font-size: 80px;
   font-weight: 800;
+  width: 708px;
+  
 }
-
-.banner_content p{
-
+.banner p {
+  color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
-  color: rgba(39, 39, 39, 0.60);
-  margin-top: 32px; 
-  margin-right: 170px;
-  margin-bottom: 32px;
+  font-weight: 500;
+  padding-right: 170px;
+  width: 634px;
+  padding-bottom: 32px;
+
+}
+.banner_img {
+
+  padding-bottom: 0px;
+  padding-top: 50px;
 }
 
-.global_button{
-  
-  
-  border: none;
-  color: white;
-  font-size: 20px;
-  font-weight: 460;
-  padding: 20px 40px;
-  border-radius: 8px;
-  background-color: #E55473;
+.banner button{
 }
 
-.banner_img{
-  margin-top: 50px;
-}
 
 /* Feature Flowers */
 
-.feature_flowers h3{
-  
+.feature_flowers h3 {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 25px;
 }
 
-.feature_flowers p{
+.feature_flowers p {
   text-align: center;
   padding: 0px 660px;
-  color: rgba(39, 39, 39, 0.60); 
-  font-size: 18px; 
-  font-weight: 400; 
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
   line-height: 30px;
   margin-bottom: 50px;
 }
 
 /* feature Board */
 
-.feature_img{
+.feature_img {
+  justify-content: center;
   display: flex;
   gap: 25px;
   margin-bottom: 192px;
 }
 
-.board_1{
-  width: 464px; height: 538px;
-  background: rgba(167, 33, 98, 0.15); border-top-left-radius: 300px;
+.board_1 {
+  width: 464px;
+  height: 538px;
+  background: rgba(167, 33, 98, 0.15);
+  border-top-left-radius: 300px;
   border-top-right-radius: 300px;
-  
 }
 
-.board_1 img{
+.board_1 img {
   padding: 110px 78px 0px 78px;
 }
 
-.board_2 img{
+.board_2 img {
   padding: 117px 47px 50px 47px;
-
 }
 
-.board_3 img{
+.board_3 img {
   padding: 67px 75px 0px 67px;
 }
 
-.feature_img p{
+.feature_img p {
   text-align: center;
   font-size: 24px;
-  font-weight: 600; 
+  font-weight: 600;
   text-decoration: underline;
 }
 
-
-.board_2{
-  width:  464px; height: 538px;
-  background: rgba(5, 150.70, 160, 0.15); border-top-left-radius: 300px;
+.board_2 {
+  width: 464px;
+  height: 538px;
+  background: rgba(5, 150.7, 160, 0.15);
+  border-top-left-radius: 300px;
   border-top-right-radius: 300px;
-
 }
 
-
-.board_3{
-  width: 464px; height: 538px;
+.board_3 {
+  width: 464px;
+  height: 538px;
   background: rgba(71, 125, 17, 0.15);
   border-top-left-radius: 300px;
   border-top-right-radius: 300px;
-
 }
 
 /* deal */
 
-.deal{
+.deal {
+  justify-content: center;
   display: flex;
-  background-color: rgba(229, 84, 115, 0.10);
-  padding: 0px 240px;
+  background-color: rgba(229, 84, 115, 0.1);
+
   margin-bottom: 178px;
 }
 
-.deal_content{
+.deal_content {
   width: 595px;
   text-align: center;
 }
 
-.deal h3{
+.deal h3 {
   font-size: 40px;
   margin-top: 230px;
 }
 
-.deal h3 span{
-  color:#E55473;
+.deal h3 span {
+  color: #e55473;
 }
 
-
-.deal p{
-  color: rgba(39, 39, 39, 0.60); 
-  font-size: 18px; 
-  font-weight: 400; 
+.deal p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
   margin-bottom: 32px;
 }
 
-.deal button{
+.deal button {
   margin-bottom: 182px;
 }
 
-.deal_img{
-margin-top: 100px;
-margin-left: 186px;
-
+.deal_img {
+  margin-top: 100px;
+  margin-left: 186px;
 }
 
 /* instagram */
 
-
-.instagram h3{
+.instagram h3 {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 25px;
 }
 
-.instagram p{
+.instagram p {
   text-align: center;
   padding: 0px 660px;
-  color: rgba(39, 39, 39, 0.60); 
-  font-size: 18px; 
-  font-weight: 400; 
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
   line-height: 30px;
   margin-bottom: 50px;
 }
 
-.instagram_board{
+.instagram_board {
   margin-bottom: 128px;
-
 }
 
-.instagram_img{
+.instagram_img {
+  justify-content: center;
   display: flex;
   gap: 25px;
 }
 
 /* deals */
 
-.deals{
+.deals {
   align-items: center;
+  background-position: center;
   background-image: url(/images/Rectangle\ 9.png);
   background-repeat: no-repeat;
-  
+
   border-radius: 8px;
 }
 
-.deals-frm{
+.deals-frm {
   display: flex;
 }
 
-.deals-head h3{
+.deals-head h3 {
   padding-top: 122px;
   font-size: 40px;
   text-align: center;
-  margin-bottom:16px ;
-
-
-  
+  margin-bottom: 16px;
 }
 
-.deals-head p{
+.deals-head p {
   text-align: center;
   margin-bottom: 48px;
-  color: rgba(39, 39, 39, 0.60);
-  font-size: 18px; 
-  font-weight: 400px; 
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400px;
 }
 
-.deals-frm{ 
-  margin-bottom: 122px ;
-  
+.deals-frm {
+  margin-bottom: 122px;
+
   justify-content: center;
 }
 
-.email{
+.email {
   padding: 22px 22px;
   width: 600px;
   height: 20px;
   margin-right: 16px;
   font-size: 16px;
-  border-radius: 8px
+  border-radius: 8px;
 }
 
-.email-area{
-  
-  
+.email-area {
 }
 
-.deals_m{
+.deals_m {
   padding-bottom: 120px;
 }
 
 /* footer */
-footer{
+footer {
   text-align: center;
   background: black;
 }
 
-.foot h3{
+.foot h3 {
   padding-top: 128px;
   padding-bottom: 24px;
-  font-size: 48px; 
-  color: #E55473;
+  font-size: 48px;
+  color: #e55473;
   font-weight: 800;
 }
 
-.foot h3 span{
-  color:white;
+.foot h3 span {
+  color: white;
 }
 
-.foot p{
-  color: rgba(255, 255, 255, 0.90); 
-  font-size: 18px; 
-  font-weight: 400; 
+.foot p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
   line-height: 30px;
   padding: 0px 650px;
 }
 
-footer>p{
-  text-align: center; 
-  color: rgba(255, 255, 255, 0.40); 
-  font-size: 16px; 
-  font-weight: 400; 
+footer > p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
   padding-top: 33px;
   padding-bottom: 128px;
 }
-
